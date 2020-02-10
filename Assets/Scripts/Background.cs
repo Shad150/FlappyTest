@@ -9,7 +9,7 @@ public class Background : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        myMaterial = GetComponent<Renderer>().material;
+        myMaterial = GetComponent<Renderer>().material;                                                             //Guarda el material del objeto
     }
 
     // Update is called once per frame
